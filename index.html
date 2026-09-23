@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="ATLANTEST is the test coin where every bug confirms the test is working.">
+  <title>ATLANTEST | This Is A Test</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to test document</a>
+
+  <main class="paper" id="main-content">
+    <header class="masthead">
+      <div class="document-name">
+        <span class="field-label">DOCUMENT</span>
+        <strong>ATL-QA-000</strong>
+      </div>
+      <dl class="document-meta">
+        <div>
+          <dt>BUILD</dt>
+          <dd>PROBABLY</dd>
+        </div>
+        <div>
+          <dt>STATUS</dt>
+          <dd class="marked">STILL TESTING</dd>
+        </div>
+      </dl>
+    </header>
+
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="section-code">TEST SUBJECT: A</p>
+        <h1 id="page-title">ATLAN<span>TEST</span></h1>
+        <p class="central-statement">THIS IS A TEST.</p>
+        <p class="lede">The test coin where every bug confirms the test is working.</p>
+
+        <div class="review-note" aria-label="Reviewer annotation">
+          <span>Reviewer note:</span>
+          Please stop asking when the real coin starts.
+        </div>
+      </div>
+
+      <div class="stamp-wrap" aria-label="ATLANTEST logo: Test Subject A stamp with a cracked checkbox">
+        <div class="test-stamp" id="test-stamp" aria-hidden="true">
+          <span class="stamp-top">TEST SUBJECT</span>
+          <span class="cracked-box"></span>
+          <strong>A</strong>
+          <span class="stamp-bottom">OBSERVED</span>
+        </div>
+        <p>Stamp is slightly crooked.<br>Result accepted.</p>
+      </div>
+    </section>
+
+    <section class="objective" aria-labelledby="objective-title">
+      <p class="field-label" id="objective-title">TEST OBJECTIVE</p>
+      <p>Deploy the least ambiguous test memecoin ever made.</p>
+      <div class="comparison">
+        <p><span>EXPECTED:</span> ATLANTEST exists.</p>
+        <p><span>ACTUAL:</span> ATLANTEST continues to exist.</p>
+      </div>
+    </section>
+
+    <div class="test-layout">
+      <section class="issues" aria-labelledby="issues-title">
+        <div class="section-heading">
+          <h2 id="issues-title">Known issues</h2>
+          <span>DO NOT FIX</span>
+        </div>
+
+        <ol class="issue-list">
+          <li>
+            <span class="issue-number">01</span>
+            <div>
+              <strong>Name may be mistaken for temporary.</strong>
+              <p>This is correct behavior.</p>
+            </div>
+          </li>
+          <li>
+            <span class="issue-number">02</span>
+            <div>
+              <strong>Community keeps asking if this is the real one.</strong>
+              <p>Confusion successfully reproduced.</p>
+            </div>
+          </li>
+          <li>
+            <span class="issue-number">03</span>
+            <div>
+              <strong>Fixing a bug reduces the available evidence.</strong>
+              <p>Severity: philosophically blocking.</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="runner" id="runner" data-result="idle" aria-labelledby="runner-title">
+        <div class="section-heading">
+          <h2 id="runner-title">Run test</h2>
+          <span>MANUAL QA</span>
+        </div>
+        <p class="runner-instruction">Press once. If something happens, the frontend passes. If nothing happens, the concept passes.</p>
+
+        <button class="run-button" id="run-test" type="button">
+          <span>RUN TEST</span>
+          <kbd>ENTER</kbd>
+        </button>
+
+        <div class="result" aria-live="polite" aria-atomic="true">
+          <div class="result-head">
+            <span id="result-code">AWAITING INPUT</span>
+            <span>RUN <b id="run-count">00</b></span>
+          </div>
+          <p id="result-message">No result is also a result, but this one has not happened yet.</p>
+        </div>
+      </section>
+    </div>
+
+    <section class="contract" aria-labelledby="contract-title">
+      <div>
+        <p class="field-label" id="contract-title">CONTRACT / MINT ADDRESS</p>
+        <code id="contract-address">Not configured</code>
+      </div>
+      <div class="contract-actions">
+        <span class="contract-status" id="contract-status" aria-live="polite">NOT CONFIGURED</span>
+        <button id="copy-contract" type="button" disabled>COPY CA</button>
+      </div>
+    </section>
+
+    <footer>
+      <p>END OF TEST</p>
+      <p>Do not remove this document from the test environment.</p>
+      <span>$ATLTEST</span>
+    </footer>
+  </main>
+
+  <script src="./config.js"></script>
+  <script src="./env.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
